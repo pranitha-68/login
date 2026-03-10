@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121229;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color:   rgba(32, 48, 71, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 30px #075fed;
+    border-radius: 5px;
+}
+
+.container h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:  rgba(32, 48, 71, 0.5);
+    border: 1px solid #075fed;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+form input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+form button {
+    width: 150px;
+    padding: 10px;
+    background: linear-gradient(to right,#075fed, #08f0d5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: linear-gradient(to right,#075fed, #08f0d5);
+}
+#login-form p a {
+    color: white;
+}
+
+#login-form p {
+    color: white;
+}
+.brand-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#075fed;
+    font-size: 40px;
+    font-weight: bold;
+}
+p a:hover {
+    text-decoration: underline;
+}
+
+.form-box {
+  display: none;
+}
+
+.form-box.active {
+  display: block;
+}
+input,
+select {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:  rgba(32, 48, 71, 0.5);
+    box-shadow: 0 0 5px #075fed;
+    border: 1px solid ;
+    border-radius: 5px;
+    color:  white;
+    font-size: 16px;
+    appearance: none; /* Remove default arrow icon */
+}
+
+.form-box {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background: rgba(32, 48, 71, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(32, 48, 71, 0.5);
+    display: none;
+}
+
+.form-box.active {
+  max-width: 700px; 
+  width: 100%;
+  display: block;
+}
+p a {
+    color: #075fed;
+    text-decoration: underline;
+}
+
+
+p a:hover {
+    text-decoration: underline;
+}
+.account-text {
+    color: white;
+}
+.account-text a {
+    color: white;
+    text-decoration: underline;
+}
+.account-text a:hover {
+    text-decoration: underline;
+}
+#upload-resume-container {
+    margin-top: 20px;
+}
+
+#upload-resume {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(32, 48, 71, 0.5);
+    box-shadow: 0 0 5px #075fed;
+    border: 1px solid #075fed;
+    color: white;
+    font-size: 16px;
+}
+.form-box {
+    display: none;
+}
+
+.form-box.active {
+    display: block;
+}
+#resume-select, #upload-resume {
+    background-color: rgba(32, 48, 71, 0.5);
+    box-shadow: 0 0 5px #075fed;
+    border: 1px solid #075fed;
+    color: white;
+}input, select {
+    background-color: rgba(32, 48, 71, 0.5);
+    box-shadow: 0 0 5px #075fed;
+    border: 1px solid #075fed;
+    color: white;
+}
+label[for="start-date"], label[for="end-date"] {
+    color: white;
+}
+
+input[type="date"] {
+    background-image: url('calendar-icon.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 30px; /* adjust this value to match the icon size */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="date"] {
+    background-color: rgba(32, 48, 71, 0.5);
+    box-shadow: 0 0 5px #075fed;
+    border: 1px solid #075fed;
+    color: white;
+    padding-right: 30px;
+}
+#add-experience {
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(to right,#075fed, #08f0d5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

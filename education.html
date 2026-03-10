@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Education Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="brand-name">Vridire</div>
+        <div class="form-box active" id="education-form">
+            <form id="education">
+                <h2>Education</h2>
+                <div id="education-container">
+                    <div class="education-entry">
+                        <select name="degree[]" required>
+                            <option value="">Select Highest Degree*</option>
+                            <option value="High School">High School</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Bachelor's Degree">Bachelor's Degree</option>
+                            <option value="Master's Degree">Master's Degree</option>
+                            <option value="Ph.D.">Ph.D.</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <input type="text" name="schoolCollegeName[]" placeholder="School/College Name*" required><br>
+                        <input type="text" name="university[]" placeholder="University*" required><br>
+                        <input type="number" name="yearOfPassing[]" placeholder="Year of Passing*" required><br>
+                    </div>
+                </div>
+                <button type="button" onclick="location.href='personal-details.html'">Previous</button>
+                <button type="button" onclick="location.href='employment-status.html'">Next</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

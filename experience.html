@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="brand-name">Vridire</div>
+        <div class="form-box active" id="experience-form">
+            <form id="experience" action="process_form.php" method="post">
+                <h2>Experience</h2>
+                <div id="experience-container">
+                    <div class="experience-entry">
+                        <input type="text" name="organization[]" placeholder="Organization"><br>
+                        <input type="text" name="role[]" placeholder="Role"><br>
+                        <label for="start-date">Start Date:</label><br>
+                        <input type="date" name="start-date[]"><br>
+                        <label for="end-date">End Date:</label><br>
+                        <input type="date" name="end-date[]"><br>
+                        <input type="text" name="skills[]" placeholder="Skills"><br>
+                    </div>
+                </div>
+                <button type="button" id="add-experience">+ Add Experience</button><br><br>
+                <button type="button" onclick="location.href='employment-status.html'">Previous</button>
+                <button type="save" class="small-btn">Save</button><br><br>
+                <button type="button" id="preview-button">Preview</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
